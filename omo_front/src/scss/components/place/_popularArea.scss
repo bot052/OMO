@@ -1,0 +1,56 @@
+.popularArea {
+  padding: 2em 3em;
+  width: 100%;
+  h1.todayPlace {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    span {
+      color: rgb(110, 66, 151);
+    }
+  }
+
+  .sliderWrap {
+    position: relative;
+    .slick-slider {
+      .slick-list {
+        .slick-track {
+          .slick-slide {
+            padding: 10px;
+            div {
+              .content {
+                width: 300px;
+                height: 300px;
+
+                .conImg {
+                  width: 100%;
+                  height: 90%;
+                  overflow: hidden;
+                  margin-bottom: 1em;
+                  img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                  }
+                }
+
+                .conText {
+                  h3 {
+                    font-size: 20px;
+                    text-align: center;
+                    color: #777;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .slick-dots {
+        margin-top: 50px;
+        position: absolute;
+        bottom: -3em;
+      }
+    }
+  }
+}
